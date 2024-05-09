@@ -2,12 +2,12 @@
 <schemalist gettext-domain="com-github-Ory0n-Resource_Monitor">
     <schema id="com.github.Ory0n.Resource_Monitor" path="/com/github/Ory0n/Resource_Monitor/">
         <key name="refreshtime" type="i">
-            <default>2</default>
+            <default>1</default>
             <summary></summary>
             <description></description>
         </key>
         <key name="extensionposition" type="s">
-            <default>"right"</default>
+            <default>"left"</default>
             <summary></summary>
             <description></description>
         </key>
@@ -37,7 +37,7 @@
             <description></description>
         </key>
         <key name="iconsposition" type="s">
-            <default>"right"</default>
+            <default>"left"</default>
             <summary></summary>
             <description></description>
         </key>
@@ -57,7 +57,7 @@
             <description></description>
         </key>
         <key name="cpufrequencystatus" type="b">
-            <default>false</default>
+            <default>true</default>
             <summary></summary>
             <description></description>
         </key>
@@ -92,7 +92,7 @@
             <description></description>
         </key>
         <key name="ramunit" type="s">
-            <default>"numeric"</default>
+            <default>"perc"</default>
             <summary></summary>
             <description></description>
         </key>
@@ -107,7 +107,7 @@
             <description></description>
         </key>
         <key name="swapstatus" type="b">
-            <default>false</default>
+            <default>true</default>
             <summary></summary>
             <description></description>
         </key>
@@ -117,7 +117,7 @@
             <description></description>
         </key>
         <key name="swapunit" type="s">
-            <default>"numeric"</default>
+            <default>"perc"</default>
             <summary></summary>
             <description></description>
         </key>
@@ -132,7 +132,7 @@
             <description></description>
         </key>
         <key name="diskstatsstatus" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
@@ -152,7 +152,7 @@
             <description></description>
         </key>
         <key name="diskspacestatus" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
@@ -162,7 +162,7 @@
             <description></description>
         </key>
         <key name="diskspaceunit" type="s">
-            <default>"numeric"</default>
+            <default>"perc"</default>
             <summary></summary>
             <description></description>
         </key>
@@ -192,17 +192,17 @@
             <description></description>
         </key>
         <key name="netunit" type="s">
-            <default>"bytes"</default>
+            <default>"bits"</default>
             <summary></summary>
             <description></description>
         </key>
         <key name="netunitmeasure" type="s">
-            <default>"auto"</default>
+            <default>"m"</default>
             <summary></summary>
             <description></description>
         </key>
         <key name="netethstatus" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
@@ -257,7 +257,7 @@
             <description></description>
         </key>
         <key name="gpustatus" type="b">
-            <default>false</default>
+            <default>true</default>
             <summary></summary>
             <description></description>
         </key>
@@ -267,7 +267,7 @@
             <description></description>
         </key>
         <key name="gpumemoryunit" type="s">
-            <default>"numeric"</default>
+            <default>"perc"</default>
             <summary></summary>
             <description></description>
         </key>
