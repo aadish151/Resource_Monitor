@@ -10,21 +10,14 @@ Resource_Monitor is a GNOME Shell extension designed to monitor system resources
 | ![Main View](/images/main.png) |
 
 ## GNOME Shell versions supported
-**45**
-- For older GNOME versions see the [gnome-3.28-3.38](../../tree/gnome-3.28-3.38) or [gnome-40-44](../../tree/gnome-40-44) branch.
+**46**
 
 ## How-To Install
 
-### From GNOME Extensions
-
-- Visit [GNOME Extensions](https://extensions.gnome.org/extension/1634/resource-monitor/) and install from there.
-
-### Using the Latest Release
-
-1. Download the latest [Release](../../releases/latest) from GitHub.
-2. Unzip `Resource_Monitor@Ory0n.zip`.
-3. Move the `Resource_Monitor@Ory0n` folder to `~/.local/share/gnome-shell/extensions/`.
-4. Activate the extension using GNOME Extensions.
+1. git clone https://github.com/aadish151/Resource_Monitor.git
+2. cp -r ~/Resource_Monitor/Resource_Monitor@Ory0n ~/.local/share/gnome-shell/extensions
+3. gnome-session-quit
+4. gnome-extensions enable Resource_Monitor@Ory0n
 
 ## Preferences
 
@@ -50,6 +43,9 @@ To report issues or request features, please use the [GitHub Issues](../../issue
 
 ## Change Log
 
+**Version 22 (May 9, 2024)**
+- Added support for GNOME 46.
+
 **Version 21 (Jan 2, 2024)**
 - Added support for GNOME 45.
 - Fixed left-click custom-program functionality.
@@ -58,6 +54,7 @@ To report issues or request features, please use the [GitHub Issues](../../issue
 ## Authors
 
 - **Giuseppe Silvestro** - *Initial work* - [0ry0n](https://github.com/0ry0n)
+- **Aadish C** - *Gnome 46 update* - [aadish151](https://github.com/aadish151)
 
 ## License
 
