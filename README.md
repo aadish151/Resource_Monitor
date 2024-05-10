@@ -16,8 +16,11 @@ Resource_Monitor is a GNOME Shell extension designed to monitor system resources
 
 1. git clone https://github.com/aadish151/Resource_Monitor.git
 2. cp -r ~/Resource_Monitor/Resource_Monitor@Ory0n ~/.local/share/gnome-shell/extensions
-3. gnome-session-quit
-4. gnome-extensions enable Resource_Monitor@Ory0n
+3. Restart gnome shell: On X11, press Alt + F2 and enter r. On Wayland, relogin using ```gnome-session-quit``` or the GUI
+4. Enable the extension using ```gnome-extensions enable Resource_Monitor@Ory0n``` or the [Extension manager](https://github.com/mjakeman/extension-manager)
+
+> [!CAUTION]
+> GPU monitoring is disabled by default. It only works with dedicated GPUs (Tested with an Nvidia GPU). If turned on in integrated GPU only mode, both CPU and GPU fans can ramp up to their max rpms. The only way to control/stop them would be a complete shutdown.
 
 ## Preferences
 

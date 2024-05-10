@@ -257,7 +257,7 @@
             <description></description>
         </key>
         <key name="gpustatus" type="b">
-            <default>true</default>
+            <default>false</default>
             <summary></summary>
             <description></description>
         </key>
